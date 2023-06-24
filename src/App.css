@@ -1,0 +1,8 @@
+.sample-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 18px;
+  min-height: 60vh;
+}

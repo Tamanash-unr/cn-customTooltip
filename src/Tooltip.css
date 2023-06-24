@@ -1,0 +1,69 @@
+.tooltip-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.tooltip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    margin: 15px;
+    min-width:180px;
+    visibility: collapse;
+    opacity: 0;
+    transition-property: opacity, visibility;
+    transition-duration: 0.5s;
+}
+
+.tooltip-container:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+    transition-property: opacity, visibility;
+    transition-duration: 0.5s;
+}
+
+.tooltip-arrow {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.tooltip-left{
+    left: 105%;
+}
+
+.tooltip-right{
+    right: 105%;
+}
+
+.tooltip-top{
+    bottom: 105%;
+}
+
+.tooltip-bottom{
+    top: 105%;
+}
+
+.arrow-left{
+    left: -8px;
+}
+
+.arrow-right{
+    right: -8px;
+}
+
+.arrow-top{
+    bottom: -8px;
+}
+
+.arrow-bottom{
+    top: -8px;
+}
