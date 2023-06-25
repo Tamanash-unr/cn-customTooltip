@@ -1,6 +1,7 @@
 import './App.css';
 import Tooltip from './Tooltip';
 
+// Main App Element to be 
 function App() {
   return (
     <div className="sample-text">
